@@ -2,9 +2,9 @@
 A simple web-app implemented in Rust that include Rocket framework for back-end, and Yew as front-end, open https://127.0.0.1:8000 to view it in browser.
 
 ## Dependecies
-cargo install wasm-pack
-cargo install trunk
-rustup target add wasm32-unknown-unknown
+- `cargo install wasm-pack`
+- `cargo install trunk`
+- `rustup target add wasm32-unknown-unknown`
 
 ## Usage 
 - $ mkdir my_web && cd my_web
@@ -21,14 +21,14 @@ rustup target add wasm32-unknown-unknown
 ## Database
 
 ## Structure
- src/
- |- main.rs // For server start
- |- routes.rs // include all pages
+ 1. src/
+    - |- main.rs // For server start
+    - |- routes.rs // include all pages
 
-src/pages/
-|- registretion.rs // registration page
-|- autorization.rs // autorization page
-|- users.rs // about users page
+2. src/pages/
+    - |- registretion.rs // registration page
+    - |- autorization.rs // autorization page
+    - |- users.rs // about users page
 
 
 
