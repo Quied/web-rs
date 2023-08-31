@@ -28,14 +28,14 @@ A simple web-app implemented in Rust that include Rocket framework for back-end,
 ## Database
 
 ## Structure
- 1. src/
-    - |- main.rs // For server start
-    - |- routes.rs // include all pages
+ ### src/
+ #### |- main.rs // For server start
+ #### |- routes.rs // include all pages
 
-2. src/pages/
-    - |- registretion.rs // registration page
-    - |- autorization.rs // autorization page
-    - |- users.rs // about users page
+### src/pages/
+#### |- registretion.rs // registration page
+#### |- autorization.rs // autorization page
+#### |- users.rs // about users page
 
 
 
