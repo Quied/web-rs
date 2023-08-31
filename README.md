@@ -21,8 +21,9 @@ A simple web-app implemented in Rust that include Rocket framework for back-end,
 - `cargo run`
 
 ## Docker
-- `docker-compose up`
-- `docker-compose run web_rs`
+- `sudo systemctl start docker.service`
+- $web_rs `docker build -t my-web .`
+- `docker run my-web`
 
 ## Database
 

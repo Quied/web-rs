@@ -1,8 +1,10 @@
-FROM rust:1.54
+FROM rust:latest
 
-WORKDIR /rustacean
+WORKDIR /usr/src/rustacean
 
 RUN cargo install diesel_cli --no-default-features --features postgres 
+RUN rustup update
+RUN rustup default nightly
 
 COPY Cargo.toml Cargo.lock ./
 
