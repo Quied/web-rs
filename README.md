@@ -6,17 +6,21 @@ A simple web-app implemented in Rust that include Rocket framework for back-end,
 - `cargo install trunk`
 - `rustup target add wasm32-unknown-unknown`
 
+- [Rocket](https://rocket.rs/) - Rust framework for backend
+- [Yew](https://yew.rs/) - Framework for creating reliable and efficient web applications
+- [Diesel](https://diesel.rs) - iteract / manage with databases
+
 ## Usage 
-- $ mkdir my_web && cd my_web
-- $ git clone https://github.com/Quied/web_rs.git
-- $ cd web_rs
-- $ rustup update
-- $ cargo run
+- $ `mkdir my_web && cd my_web`
+- $ `git clone https://github.com/Quied/web_rs.git`
+- $ `cd web_rs`
+- $ `rustup update`
+- $ `cargo run`
 
 ## Docker
 
-- $ docker-compose up
-- $ docker-compose run web_rs
+- $ `docker-compose up`
+- $ `docker-compose run web_rs`
 
 ## Database
 
