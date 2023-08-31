@@ -22,7 +22,7 @@ A simple web-app implemented in Rust that include Rocket framework for back-end,
 
 ## Docker
 - `sudo systemctl start docker.service`
-- $web_rs `docker build -t my-web .`
+- `$web_rs docker build -t my-web .`
 - `docker run my-web`
 
 ## Database
