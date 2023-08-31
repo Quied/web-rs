@@ -7,10 +7,10 @@ A simple web-app implemented in Rust that include Rocket framework for back-end,
 - [Diesel](https://diesel.rs) - iteract / manage with databases
 
 ## Dependencies
-`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
-`cargo install wasm-pack`
-`cargo install trunk`
-`rustup target add wasm32-unknown-unknown`
+- `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+- `cargo install wasm-pack`
+- `cargo install trunk`
+- `rustup target add wasm32-unknown-unknown`
 
 ## Usage 
 - `mkdir my_web && cd my_web`
