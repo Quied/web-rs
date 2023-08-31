@@ -7,23 +7,23 @@ cargo install trunk
 rustup target add wasm32-unknown-unknown
 
 ## Usage 
-$ mkdir my_web && cd my_web
-$ git clone https://github.com/Quied/web_rs.git
-$ cd web_rs
-$ rustup update
-$ cargo run
+- $ mkdir my_web && cd my_web
+- $ git clone https://github.com/Quied/web_rs.git
+- $ cd web_rs
+- $ rustup update
+- $ cargo run
 
 ## Docker
 
-$ docker-compose up
-$ docker-compose run web_rs
+- $ docker-compose up
+- $ docker-compose run web_rs
 
 ## Database
 
 ## Structure
-src/
-|- main.rs // For server start
-|- routes.rs // include all pages
+ src/
+ |- main.rs // For server start
+ |- routes.rs // include all pages
 
 src/pages/
 |- registretion.rs // registration page
