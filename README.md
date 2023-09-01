@@ -7,18 +7,30 @@ A simple web-app implemented in Rust that include Rocket framework for back-end,
 - [Diesel](https://diesel.rs) - iteract / manage with databases
 
 ## Dependencies
-- `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
-- `cargo install wasm-pack`
-- `cargo install trunk`
-- `rustup target add wasm32-unknown-unknown`
+`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+`cargo install wasm-pack`
+`cargo install trunk`
+`rustup target add wasm32-unknown-unknown`
 
 ## Usage 
-- `mkdir my_web && cd my_web`
-- `git clone https://github.com/Quied/web_rs.git`
-- `cd web_rs`
-- `rustup update`
-- `rustup default nightly`
-- `cargo run`
+```bash 
+mkdir my_web && cd my_web
+```
+```bash 
+git clone https://github.com/Quied/web_rs.git
+```
+```bash 
+cd web_rs
+```
+```bash 
+rustup update
+```
+```bash 
+rustup default nightly
+```
+```bash 
+cargo run
+```
 
 ## Docker
 - `sudo systemctl start docker.service`
@@ -29,13 +41,13 @@ A simple web-app implemented in Rust that include Rocket framework for back-end,
 
 ## Structure
  ### src/
- #### |- main.rs // For server start
- #### |- routes.rs // include all pages
+  #### |- main.rs // For server start
+  #### |- routes.rs // include all pages
 
-### src/pages/
-#### |- registretion.rs // registration page
-#### |- autorization.rs // autorization page
-#### |- users.rs // about users page
+ ### src/pages/
+  #### |- registretion.rs // registration page
+  #### |- autorization.rs // autorization page
+  #### |- users.rs // about users page
 
 
 
