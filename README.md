@@ -41,12 +41,12 @@ cargo run
 
 ## Structure
  ### src/
-  #### |- main.rs // For server start
-  #### |- routes.rs // include all pages
+  #### |- main.rs // SERVER
+  #### |- routes.rs 
 
  ### src/pages/
-  #### |- registretion.rs // registration page
-  #### |- autorization.rs // autorization page
+  #### |- registretion.rs 
+  #### |- autorization.rs 
   #### |- users.rs // about users page
 
 
