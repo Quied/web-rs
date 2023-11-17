@@ -22,13 +22,21 @@ impl Component for Home {
     }
 }
 
-#[get("/")]
-pub fn index() -> &'static str {
+#[function_component]
+pub fn App() -> Html {
+    let counter = use_state(|| 0);
+    let onclick = {
+        let counter = counter.clone();
+        move |_| {
+            let value = *counter + 1;
+            counter.set(value);
+        }
+    };
 
-    "Hello World"
-
-    // let page = simple_page();
-    // let renderer = page.into_string();
-
-    // Html(renderer)
+    html! {
+        <div>
+            <button {onclick}>{ "+1" }</button>
+            <p>{ *counter }</p>
+        </div>
+    }
 }

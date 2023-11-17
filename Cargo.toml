@@ -4,6 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+
+# this is the development version of Yew
+yew = { git = "https://github.com/yewstack/yew/", features = ["csr"] }
+
 rocket = { version = "0.5.0-rc.2", features = ["json"] }
 rocket_codegen = "0.4.11"
 
